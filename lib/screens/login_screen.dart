@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:uts/screens/home_screen.dart';
 import 'package:uts/utils/constant.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -107,11 +108,19 @@ class LoginScreen extends StatelessWidget {
                   children: [
                     Expanded(
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).pushReplacement(
+                            MaterialPageRoute(
+                              builder: (context) {
+                                return const HomeScreen();
+                              },
+                            ),
+                          );
+                        },
                         child: const Padding(
                           padding: EdgeInsets.symmetric(vertical: kMediumTextSize - 2),
                           child: Text(
-                            'Next',
+                            'Login',
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                             ),
