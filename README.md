@@ -1,16 +1,17 @@
-# uts
+<img src="mockup/mockup1.png" width=200 style="float: right"> 
 
-A new Flutter project.
+# Learnywhere
+Learn anywhere and getting better than yesterday.
 
-## Getting Started
+### What is Learnywhere ?
+Learnywhere is application that you can find out course and learn without worry where or when you can learn.
+In future, you can also upload your course for free. so, we waiting for you guys 😙.
 
-This project is a starting point for a Flutter application.
+### Note
+This app still under development. we also open to contribution.
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+COMMING SOON
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Features
+COMMING SOON
