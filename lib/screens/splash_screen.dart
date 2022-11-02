@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:uts/screens/login_screen.dart';
 import 'package:uts/utils/constant.dart';
+import 'package:uts/widgets/splash_widget.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -37,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
     final splashWidget = List.generate(
       assetPaths.length,
       (index) {
-        return _SplashWelcome(
+        return SplashWidget(
           title: title[index],
           subtitle: subtitle[index],
           path: assetPaths[index],
@@ -72,8 +73,8 @@ class _SplashScreenState extends State<SplashScreen> {
                 assetPaths.length,
                 (index) => Container(
                   margin: const EdgeInsets.symmetric(horizontal: 3.0),
-                  height: 10.0,
-                  width: 10.0,
+                  height: 12,
+                  width: 12,
                   decoration: BoxDecoration(
                     color: currentPage.round() == index
                         ? kPrimaryColor
@@ -92,167 +93,55 @@ class _SplashScreenState extends State<SplashScreen> {
                 Expanded(
                   child: ElevatedButton(
                     onPressed: () {
-                      pageController.nextPage(
-                        duration: const Duration(milliseconds: 300),
-                        curve: Curves.easeIn,
-                      );
+                      if (currentPage == assetPaths.length - 1) {
+                        Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(
+                            builder: (context) {
+                              return const LoginScreen();
+                            },
+                          ),
+                        );
+                      } else {
+                        pageController.nextPage(
+                          duration: const Duration(milliseconds: 300),
+                          curve: Curves.easeIn,
+                        );
+                      }
                     },
-                    child: const Text('Next'),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: kMediumTextSize - 2),
+                      child: (currentPage == assetPaths.length - 1)
+                          ? const Text(
+                              'Get Started',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            )
+                          : const Text(
+                              'Next',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                    ),
                   ),
                 ),
                 const SizedBox(width: kBigPadding),
                 Expanded(
                   child: TextButton(
                     onPressed: () {},
-                    child: const Text('Skip'),
+                    child: const Padding(
+                      padding: EdgeInsets.symmetric(vertical: kMediumTextSize - 2),
+                      child: Text(
+                        'Skip',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
                   ),
                 ),
               ],
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class _SplashWelcome extends StatelessWidget {
-  final String path;
-  final String title;
-  final String subtitle;
-  final bool topAsset;
-  const _SplashWelcome({required this.path, required this.title, required this.subtitle, required this.topAsset});
-
-  @override
-  Widget build(BuildContext context) {
-    return SafeArea(
-      child: SizedBox(
-        width: double.infinity,
-        height: double.infinity,
-        child: Stack(
-          children: [
-            topAsset
-                ? Positioned(
-                    top: -55,
-                    left: -55,
-                    child: Container(
-                      height: 180,
-                      width: 180,
-                      decoration: BoxDecoration(
-                        color: kPrimaryColor,
-                        borderRadius: BorderRadius.circular(90),
-                      ),
-                    ),
-                  )
-                : Positioned(
-                    bottom: -55,
-                    right: -55,
-                    child: Container(
-                      height: 180,
-                      width: 180,
-                      decoration: BoxDecoration(
-                        color: kPrimaryColor,
-                        borderRadius: BorderRadius.circular(90),
-                      ),
-                    ),
-                  ),
-            topAsset
-                ? Positioned(
-                    top: MediaQuery.of(context).size.width * 0.5,
-                    left: MediaQuery.of(context).size.width * 0.5,
-                    child: Container(
-                      height: 180,
-                      width: 180,
-                      decoration: BoxDecoration(
-                        color: kPrimaryColor,
-                        borderRadius: BorderRadius.circular(90),
-                      ),
-                    ),
-                  )
-                : Positioned(
-                    top: MediaQuery.of(context).size.width * 0.3,
-                    right: MediaQuery.of(context).size.width * 0.8,
-                    child: Container(
-                      height: 180,
-                      width: 180,
-                      decoration: BoxDecoration(
-                        color: kPrimaryColor,
-                        borderRadius: BorderRadius.circular(90),
-                      ),
-                    ),
-                  ),
-            Center(
-              child: topAsset
-                  ? Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        SvgPicture.asset(
-                          path,
-                          height: 300,
-                        ),
-                        const SizedBox(height: kBigPadding),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 80),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.min,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                title,
-                                style: const TextStyle(
-                                  fontSize: kMediumTextSize,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                subtitle,
-                                style: const TextStyle(
-                                  fontSize: kMediumTextSize - 2,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black45,
-                                ),
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    )
-                  : Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 80),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.min,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                title,
-                                style: const TextStyle(
-                                  fontSize: kMediumTextSize,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                subtitle,
-                                style: const TextStyle(
-                                  fontSize: kMediumTextSize - 2,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black45,
-                                ),
-                              ),
-                              const SizedBox(height: kBigPadding),
-                              SvgPicture.asset(
-                                path,
-                                height: 300,
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
             ),
           ],
         ),
