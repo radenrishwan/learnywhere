@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:uts/screens/home_screen.dart';
+import 'package:uts/screens/splash_screen.dart';
 import 'package:uts/utils/constant.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class InitialApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(), // TODO: change later
+      home: const SplashScreen(),
       theme: ThemeData(
         textTheme: GoogleFonts.montserratTextTheme(Theme.of(context).textTheme).copyWith(),
         buttonTheme: const ButtonThemeData(
