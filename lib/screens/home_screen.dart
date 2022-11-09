@@ -1,7 +1,14 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:flutter/services.dart';
+import 'package:uts/models/course.dart';
+import 'package:uts/models/section.dart';
+import 'package:uts/models/video.dart';
+import 'package:uts/screens/course_screen.dart';
 import 'package:uts/utils/constant.dart';
 import 'package:uts/widgets/course_card.dart';
+import 'package:uts/widgets/promotion_card.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -37,8 +44,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     const Text(
                       "Welcome back,\nRaden Mohamad Rishwan",
                       style: TextStyle(
-                        fontSize: kBigTextSize,
+                        fontSize: kBigTextSize - 2,
                       ),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
                     ),
                     const SizedBox(height: kDefaultPadding),
                     TextField(
@@ -74,59 +83,9 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Padding(
           padding: const EdgeInsets.all(kBigPadding),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Card(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(kDefaultBorderRadius),
-                ),
-                child: SizedBox(
-                  width: double.infinity,
-                  height: 150,
-                  child: Stack(
-                    children: [
-                      Positioned(
-                        right: 14,
-                        bottom: 0,
-                        child: SvgPicture.asset(
-                          'assets/illustrations/home/promotion.svg',
-                          height: 140,
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(14),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            const Text(
-                              'Over 1000++ free courses\navailable now',
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: kMediumTextSize,
-                              ),
-                            ),
-                            const SizedBox(height: kDefaultPadding),
-                            ElevatedButton(
-                              onPressed: () {},
-                              child: Row(
-                                mainAxisSize: MainAxisSize.min,
-                                children: const [
-                                  Text(
-                                    'Categories',
-                                    style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                  Icon(Icons.arrow_forward_outlined),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-              ),
+              const PromotionCard(),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Wrap(
@@ -160,9 +119,82 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const SizedBox(height: kDefaultPadding),
-              ...List.generate(
-                5,
-                (index) => const CourseCard(),
+              const Text(
+                'Popular Courses',
+                textAlign: TextAlign.start,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: kMediumTextSize,
+                ),
+              ),
+              FutureBuilder(
+                future: rootBundle.loadString('assets/data/courses.json'),
+                builder: (context, snapshot) {
+                  final List<Course> courses = [];
+
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+
+                  if (snapshot.hasData) {
+                    final List<dynamic> data = jsonDecode(snapshot.data as String);
+
+                    for (var element in data) {
+                      final section = element['sections'];
+
+                      courses.add(
+                        Course(
+                          thumbnail: element['thumbnail'].toString(),
+                          title: element['title'].toString(),
+                          rating: element['rating'].toString(),
+                          price: element['price'].toString(),
+                          previewUrl: element['previewUrl'].toString(),
+                          sylabus: element['sylabus'].toString(),
+                          sections: List.generate(
+                            (section as List).length,
+                            (index) {
+                              final video = section[index]['videos'];
+                              return Section(
+                                title: section[index]['title'],
+                                video: List.generate(
+                                  (video as List).length,
+                                  (index) {
+                                    return Video(
+                                      title: video[index]['title'],
+                                      url: video[index]['url'],
+                                      duration: video[index]['duration'],
+                                    );
+                                  },
+                                ),
+                              );
+                            },
+                          ),
+                        ),
+                      );
+                    }
+                  }
+
+                  return Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: List.generate(
+                      courses.length,
+                      (index) => CourseCard(
+                        course: courses[index],
+                        onTap: () => Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) {
+                              return CourseScreen(
+                                course: courses[index],
+                              );
+                            },
+                          ),
+                        ),
+                      ),
+                    ),
+                  );
+                },
               ),
             ],
           ),

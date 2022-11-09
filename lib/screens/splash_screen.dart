@@ -129,7 +129,11 @@ class _SplashScreenState extends State<SplashScreen> {
                 const SizedBox(width: kBigPadding),
                 Expanded(
                   child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      setState(() {
+                        pageController.jumpToPage(assetPaths.length - 1);
+                      });
+                    },
                     child: const Padding(
                       padding: EdgeInsets.symmetric(vertical: kMediumTextSize - 2),
                       child: Text(

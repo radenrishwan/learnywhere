@@ -1,0 +1,222 @@
+[
+    {
+        "thumbnail": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
+        "title": "Basic Typescript",
+        "rating": "4.9",
+        "price": 0,
+        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "sylabus": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+        "sections": [
+            {
+                "title": "Introduction",
+                "videos": [
+                    {
+                        "title": "Introduction",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Roadmap",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Installation",
+                "videos": [
+                    {
+                        "title": "Install Typescript",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Create first project",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Basic",
+                "videos": [
+                    {
+                        "title": "Create new variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Print variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "thumbnail": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
+        "title": "Basic Typescript",
+        "rating": "4.9",
+        "price": 0,
+        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "sylabus": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+        "sections": [
+            {
+                "title": "Introduction",
+                "videos": [
+                    {
+                        "title": "Introduction",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Roadmap",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Installation",
+                "videos": [
+                    {
+                        "title": "Install Typescript",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Create first project",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Basic",
+                "videos": [
+                    {
+                        "title": "Create new variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Print variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "thumbnail": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
+        "title": "Basic Typescript",
+        "rating": "4.9",
+        "price": 0,
+        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "sylabus": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+        "sections": [
+            {
+                "title": "Introduction",
+                "videos": [
+                    {
+                        "title": "Introduction",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Roadmap",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Installation",
+                "videos": [
+                    {
+                        "title": "Install Typescript",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Create first project",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Basic",
+                "videos": [
+                    {
+                        "title": "Create new variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Print variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "thumbnail": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
+        "title": "Basic Typescript",
+        "rating": "4.9",
+        "price": 0,
+        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "sylabus": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+        "sections": [
+            {
+                "title": "Introduction",
+                "videos": [
+                    {
+                        "title": "Introduction",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Roadmap",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Installation",
+                "videos": [
+                    {
+                        "title": "Install Typescript",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Create first project",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Basic",
+                "videos": [
+                    {
+                        "title": "Create new variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Print variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            }
+        ]
+    }
+]

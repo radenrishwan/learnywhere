@@ -16,6 +16,7 @@ class InitialApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const SplashScreen(),
       theme: ThemeData(
+        scaffoldBackgroundColor: kBackgroudColor,
         textTheme: GoogleFonts.montserratTextTheme(Theme.of(context).textTheme).copyWith(),
         buttonTheme: const ButtonThemeData(
           buttonColor: kPrimaryColor,
@@ -39,6 +40,8 @@ class InitialApp extends StatelessWidget {
         ),
         appBarTheme: const AppBarTheme(
           backgroundColor: kPrimaryColor,
+          elevation: 0,
+          foregroundColor: Colors.black,
           iconTheme: IconThemeData(
             size: 35, //change size on your need
             color: Colors.black, //change color on your need
