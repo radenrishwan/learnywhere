@@ -1,11 +1,11 @@
 [
     {
         "thumbnail": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
-        "title": "Basic Typescript",
+        "title": "From Basic to Advance Typescript",
         "rating": "4.9",
         "price": 0,
         "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-        "sylabus": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+        "sylabus": "In this course, you learn typescript from basic. U didnt need know about programming before for learning this course. After you learn this courses, you can continue learn advance typescript like Design Pattern, Clean Architecture, etc. And you can also learn Typescript Framework.",
         "sections": [
             {
                 "title": "Introduction",
@@ -47,6 +47,101 @@
                     },
                     {
                         "title": "Print variable",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Make a conditional statement",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Create a looping using for and while",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Create a function",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Seperate your file using module",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "More deep about data type",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Data structure",
+                "videos": [
+                    {
+                        "title": "What is data structure ?",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Array",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Map",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    }
+                ]
+            },
+            {
+                "title": "Object Oriented Programming",
+                "videos": [
+                    {
+                        "title": "What is OOP?",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Create my own class",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "More deep about class",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "What is Inheritence?",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "More know about Inheritence",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "Create Enum",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "What is generic?",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "More deep abou generic",
+                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "duration": "15:15"
+                    },
+                    {
+                        "title": "First Study Case: Create a simple game",
                         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
                         "duration": "15:15"
                     }
@@ -55,12 +150,12 @@
         ]
     },
     {
-        "thumbnail": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
-        "title": "Basic Typescript",
-        "rating": "4.9",
-        "price": 0,
+        "thumbnail": "https://w7.pngwing.com/pngs/117/809/png-transparent-microsoft-excel-training-computer-software-microsoft-office-excel-template-angle-text-thumbnail.png",
+        "title": "Being a Excel Master",
+        "rating": "4.5",
+        "price": 10,
         "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-        "sylabus": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
+        "sylabus": "Mastering Excel from beginner with only 1 week. You will learn how to use excel for your daily work and how to make a simple report",
         "sections": [
             {
                 "title": "Introduction",
@@ -78,142 +173,32 @@
                 ]
             },
             {
-                "title": "Installation",
+                "title": "Excel Fundamentals",
                 "videos": [
                     {
-                        "title": "Install Typescript",
+                        "title": "Introduction to Excel Interface",
                         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
+                        "duration": "01:41"
                     },
                     {
-                        "title": "Create first project",
+                        "title": "More deep about Excel Interface",
                         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    }
-                ]
-            },
-            {
-                "title": "Basic",
-                "videos": [
-                    {
-                        "title": "Create new variable",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
+                        "duration": "12:55"
                     },
                     {
-                        "title": "Print variable",
+                        "title": "Understanding the structure of an Excel Workbook",
                         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "thumbnail": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
-        "title": "Basic Typescript",
-        "rating": "4.9",
-        "price": 0,
-        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-        "sylabus": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-        "sections": [
-            {
-                "title": "Introduction",
-                "videos": [
-                    {
-                        "title": "Introduction",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
+                        "duration": "20:22"
                     },
                     {
-                        "title": "Roadmap",
+                        "title": "Saving a Document",
                         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    }
-                ]
-            },
-            {
-                "title": "Installation",
-                "videos": [
-                    {
-                        "title": "Install Typescript",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
+                        "duration": "07:32"
                     },
                     {
-                        "title": "Create first project",
+                        "title": "Common shortkey what u need to remember",
                         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    }
-                ]
-            },
-            {
-                "title": "Basic",
-                "videos": [
-                    {
-                        "title": "Create new variable",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    },
-                    {
-                        "title": "Print variable",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "thumbnail": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
-        "title": "Basic Typescript",
-        "rating": "4.9",
-        "price": 0,
-        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-        "sylabus": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.",
-        "sections": [
-            {
-                "title": "Introduction",
-                "videos": [
-                    {
-                        "title": "Introduction",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    },
-                    {
-                        "title": "Roadmap",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    }
-                ]
-            },
-            {
-                "title": "Installation",
-                "videos": [
-                    {
-                        "title": "Install Typescript",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    },
-                    {
-                        "title": "Create first project",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    }
-                ]
-            },
-            {
-                "title": "Basic",
-                "videos": [
-                    {
-                        "title": "Create new variable",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
-                    },
-                    {
-                        "title": "Print variable",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-                        "duration": "15:15"
+                        "duration": "08:59"
                     }
                 ]
             }

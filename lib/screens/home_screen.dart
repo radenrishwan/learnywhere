@@ -128,7 +128,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               FutureBuilder(
-                future: rootBundle.loadString('assets/data/courses.json'),
+                future: Future.delayed(
+                  const Duration(milliseconds: Duration.millisecondsPerSecond),
+                  () {
+                    return rootBundle.loadString('assets/data/courses.json');
+                  },
+                ),
                 builder: (context, snapshot) {
                   final List<Course> courses = [];
 
@@ -144,6 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     for (var element in data) {
                       final section = element['sections'];
 
+                      // TODO: change and fix tojson function on model class
                       courses.add(
                         Course(
                           thumbnail: element['thumbnail'].toString(),

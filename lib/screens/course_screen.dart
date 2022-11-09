@@ -160,10 +160,7 @@ class _CourseScreenState extends State<CourseScreen> {
                                   onTap: () {
                                     Navigator.of(context).push(
                                       MaterialPageRoute(
-                                        builder: (context) => VideoScreen(
-                                          title: data.video[index].title,
-                                          url: data.video[index].url,
-                                        ),
+                                        builder: (context) => VideoScreen(video: data.video[index]),
                                       ),
                                     );
                                   },
