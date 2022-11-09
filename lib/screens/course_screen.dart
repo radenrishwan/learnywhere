@@ -2,7 +2,9 @@ import 'package:better_player/better_player.dart';
 import 'package:expandable_text/expandable_text.dart';
 import 'package:flutter/material.dart';
 import 'package:uts/models/course.dart';
+import 'package:uts/screens/video_screen.dart';
 import 'package:uts/utils/constant.dart';
+import 'package:uts/widgets/video_card.dart';
 
 class CourseScreen extends StatefulWidget {
   final Course course;
@@ -133,61 +135,47 @@ class _CourseScreenState extends State<CourseScreen> {
                       linkColor: kPrimaryColor,
                     ),
                     const SizedBox(height: kDefaultPadding),
-                    const Text(
-                      'Section 1 - Introduction',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: kDefaultTextSize,
-                      ),
+                    ...List.generate(
+                      course.sections.length,
+                      (index) {
+                        final data = course.sections[index];
+                        return Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(
+                              'Section ${index + 1} - ${course.sections[index].title}',
+                              style: const TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: kDefaultTextSize,
+                              ),
+                            ),
+                            const SizedBox(height: kDefaultPadding),
+                            ...List.generate(
+                              data.video.length,
+                              (index) {
+                                return VideoCard(
+                                  index: index + 1,
+                                  video: data.video[index],
+                                  onTap: () {
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                        builder: (context) => VideoScreen(
+                                          title: data.video[index].title,
+                                          url: data.video[index].url,
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            ),
+                            const SizedBox(height: kDefaultPadding),
+                          ],
+                        );
+                      },
                     ),
                     const SizedBox(height: kDefaultPadding),
-                    Card(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(
-                          kDefaultBorderRadius,
-                        ),
-                      ),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          shape: BoxShape.rectangle,
-                          borderRadius: BorderRadius.circular(kDefaultBorderRadius),
-                          color: Colors.white,
-                        ),
-                        height: 70,
-                        width: double.infinity,
-                        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: kDefaultPadding),
-                        child: Row(
-                          children: [
-                            const Text(
-                              '1',
-                              style: TextStyle(
-                                fontSize: kBigTextSize,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            const SizedBox(width: kDefaultPadding - 2),
-                            Expanded(
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.start,
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: const [
-                                  Text(
-                                    'Introduction',
-                                    style: TextStyle(
-                                      fontSize: kMediumTextSize - 2,
-                                      fontWeight: FontWeight.w600,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  Text('12:30'),
-                                ],
-                              ),
-                            ),
-                            const Icon(Icons.play_arrow_outlined),
-                          ],
-                        ),
-                      ),
-                    )
                   ],
                 ),
               ),
