@@ -28,5 +28,7 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>CFBundleName</key>
+    <string>Learnywhere</string>
 </dict>
 </plist>
