@@ -2,8 +2,8 @@
     package="com.example.uts">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="uts"
-        android:name="Learnywhere"
+        android:label="Learnywhere"
+        android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

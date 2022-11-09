@@ -162,7 +162,7 @@
                 "videos": [
                     {
                         "title": "Introduction",
-                        "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                        "url": "https://youtu.be/jTU8KtpFN3c",
                         "duration": "15:15"
                     },
                     {
@@ -199,6 +199,61 @@
                         "title": "Common shortkey what u need to remember",
                         "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
                         "duration": "08:59"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "thumbnail": "https://w7.pngwing.com/pngs/117/809/png-transparent-microsoft-excel-training-computer-software-microsoft-office-excel-template-angle-text-thumbnail.png",
+        "title": "Matematika",
+        "rating": "4.8",
+        "price": 0,
+        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "sylabus": "Learn Math from beginner",
+        "sections": [
+            {
+                "title": "Kelipatan Faktor dan Bilangan",
+                "videos": [
+                    {
+                        "title": "Kelipatan Bilangan",
+                        "url": " https://youtu.be/DB0RTdDhrlI ",
+                        "duration": "5.40"
+                    },
+                    {
+                        "title": "Faktor Bilangan",
+                        "url": " https://youtu.be/2EPu7xNCEm0 ",
+                        "duration": "5.58"
+                    },
+                    {
+                        "title": "Bilangan Prima",
+                        "url": "https://youtu.be/HqCtCV-IuMQ",
+                        "duration": "7.43"
+                    },
+                    {
+                        "title": "Kelipatan Persekutuan Terkecil ll KPK",
+                        "url": "https://youtu.be/pEgJAWkXYKg",
+                        "duration": "10.13"
+                    },
+                    {
+                        "title": "Faktor Persekutuan Terbesar ll FPB",
+                        "url": "https://youtu.be/4NeYSxZJflw",
+                        "duration": "8.17"
+                    }
+                ]
+            },
+            {
+                "title": "Bilangan Bulat",
+                "videos": [
+                    {
+                        "title": "Bilangan Bulat Kelas 6 | Garis Bilangan",
+                        "url": " https://youtu.be/zShb8FuG2ck",
+                        "duration": "14.49"
+                    },
+                    {
+                        "title": "Operasi Hitung Campuran Penjumlahan Dan Pengurangan Bilangan Bulat",
+                        "url": " https://youtu.be/xvi1-t9iJ7g",
+                        "duration": "12.33"
                     }
                 ]
             }

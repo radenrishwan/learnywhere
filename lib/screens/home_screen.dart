@@ -8,6 +8,7 @@ import 'package:uts/models/video.dart';
 import 'package:uts/screens/course_screen.dart';
 import 'package:uts/utils/constant.dart';
 import 'package:uts/widgets/course_card.dart';
+import 'package:uts/widgets/drawer.dart';
 import 'package:uts/widgets/promotion_card.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -78,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
-      drawer: const Drawer(),
+      drawer: const DrawerWidget(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(kBigPadding),
