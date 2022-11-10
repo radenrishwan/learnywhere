@@ -61,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             fontSize: kDefaultTextSize + 2,
                             fontWeight: FontWeight.bold,
                           ),
-                          hintText: 'Email',
+                          hintText: 'Username',
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.all(
                               Radius.circular(kDefaultBorderRadius),
