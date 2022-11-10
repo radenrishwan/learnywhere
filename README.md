@@ -6,7 +6,7 @@ Learn anywhere and getting better than yesterday.
 ### Links
 - [UI/UX](ui/README.md)
 - [Flowchart](flowchart//README.md)
-- [APK](release_apk/README.md)
+- [APK](https://github.com/radenrishwan/learnywhere/tree/master/release_apk)
 
 ### What is Learnywhere ?
 Learnywhere is application that you can find out course and learn without worry where or when you can learn.
