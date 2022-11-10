@@ -21,8 +21,12 @@ class _VideoScreenState extends State<VideoScreen> {
   void initState() {
     if (widget.video.url.contains("youtu.be")) {
       final id = YoutubePlayerController.convertUrlToId(widget.video.url);
-      controller = YoutubePlayerController()
-        ..onInit = () {
+      controller = YoutubePlayerController(
+        params: const YoutubePlayerParams(
+          showControls: true,
+          showFullscreenButton: true,
+        ),
+      )..onInit = () {
           controller.loadVideoById(videoId: id ?? '');
         };
     }

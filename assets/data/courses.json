@@ -256,6 +256,236 @@
                         "duration": "12.33"
                     }
                 ]
+            },
+            {
+                "title": "Pecahan",
+                "videos": [
+                    {
+                        "title": "Cara Mudah Menyederhanakan Pecahan",
+                        "url": "https://youtu.be/u64TjcQnJ3I",
+                        "duration": "13.05"
+                    },
+                    {
+                        "title": "Cara Cepat Menghitung Penjumlahan dan Pengurangan Pecahan",
+                        "url": "https: //youtu.be/wd7MyXvBoBQ",
+                        "duration": "8.33"
+                    }
+                ]
+            },
+            {
+                "title": "Bangun Ruang dan Bangun Datar",
+                "videos": [
+                    {
+                        "title": " Luas dan keliling bangun datar (Lengkap Semua bangun datar)",
+                        "url": "https://youtu.be/0Z2f5yppJbo",
+                        "duration": "19.18"
+                    },
+                    {
+                        "title": " Materi lengkap Volume bangun ruang",
+                        "url": "https: //youtu.be/q50HvRP1n4E",
+                        "duration": "15.03"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "thumbnail": "https://w7.pngwing.com/pngs/117/809/png-transparent-microsoft-excel-training-computer-software-microsoft-office-excel-template-angle-text-thumbnail.png",
+        "title": "Ilmu Pengetahuan Alam (IPA)",
+        "rating": "4.2",
+        "price": 0,
+        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "sylabus": "Mempelajari IPA untuk menyiapkan UTBK tahun 2022/2023",
+        "sections": [
+            {
+                "title": "Rangka dan Panca Indera Manusia",
+                "videos": [
+                    {
+                        "title": "Mengenal Rangka pada Manusia",
+                        "url": " https://youtu.be/97Uz-nxJ3Tc",
+                        "duration": "6:44"
+                    },
+                    {
+                        "title": "Mengenal Panca Indra | Panca Indra Manusia dan Fungsinya",
+                        "url": " https://youtu.be/DNby9c2coQo",
+                        "duration": "5.0"
+                    },
+                    {
+                        "title": "Hubungan Antar Makhluk Hidup (SIMBIOSIS) | Pengertian, Macam-Macam Simbiosis & Contohnya - IPA",
+                        "url": "https://youtu.be/-oL3m-BkMC4",
+                        "duration": "14.03"
+                    },
+                    {
+                        "title": "Interaksi Makhluk Hidup Dengan Lingkungan | Pola Interaksi Dalam Ekosistem | Simbiosis",
+                        "url": "https://youtu.be/kNsKUxKijmY",
+                        "duration": "8.00"
+                    },
+                    {
+                        "title": "Rantai Makanan, Jaring-Jaring Makanan, dan Piramida Makanan Pada Ekosistem - Materi Pelajaran IPA",
+                        "url": "https://youtu.be/Pv07C1F7Z84",
+                        "duration": "14.26"
+                    }
+                ]
+            },
+            {
+                "title": "Panca Indera Manusia",
+                "videos": [
+                    {
+                        "title": "Mengenal Panca Indra | Panca Indra Manusia dan Fungsinya",
+                        "url": " https://youtu.be/DNby9c2coQo",
+                        "duration": "5.08"
+                    }
+                ]
+            },
+            {
+                "title": "Makhluk Hidup dan Lingkungannya",
+                "videos": [
+                    {
+                        "title": "Hubungan Antar Makhluk Hidup (SIMBIOSIS) | Pengertian, Macam-Macam Simbiosis & Contohnya - IPA",
+                        "url": "https://youtu.be/-oL3m-BkMC4",
+                        "duration": "14.03"
+                    },
+                    {
+                        "title": " Interaksi Makhluk Hidup Dengan Lingkungan | Pola Interaksi Dalam Ekosistem | Simbiosis",
+                        "url": "https://youtu.be/kNsKUxKijmY",
+                        "duration": "8.00"
+                    },
+                    {
+                        "title": "Rantai Makanan, Jaring-Jaring Makanan, dan Piramida Makanan Pada Ekosistem - Materi Pelajaran IPA",
+                        "url": "https://youtu.be/Pv07C1F7Z84",
+                        "duration": "14.26"
+                    }
+                ]
+            },
+            {
+                "title": "Organ Tubuh Manusia dan Hewan",
+                "videos": [
+                    {
+                        "title": "Organ Pernapasan Hewan & Manusia",
+                        "url": "https://youtu.be/fwB_pYa35XM",
+                        "duration": "13.59"
+                    },
+                    {
+                        "title": "Sistem Peredaran Darah Pada Tubuh Manusia | IPA",
+                        "url": "https://youtu.be/_vMIvibgEcg",
+                        "duration": "4.17"
+                    }
+                ]
+            },
+            {
+                "title": "Tumbuhan Hijau",
+                "videos": [
+                    {
+                        "title": "Bagaimana Tumbuhan Makan? - Proses Fotosintesis",
+                        "url": "https://youtu.be/vF8uWdrVorg",
+                        "duration": "2.58"
+                    },
+                    {
+                        "title": "Manfaat Tumbuhan Bagi Makhluk Hidup",
+                        "url": "https://youtu.be/RRz9zM-qRqA",
+                        "duration": "4.05"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "thumbnail": "https://w7.pngwing.com/pngs/117/809/png-transparent-microsoft-excel-training-computer-software-microsoft-office-excel-template-angle-text-thumbnail.png",
+        "title": "Bahasa Inggris",
+        "rating": "4.2",
+        "price": 0,
+        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "sylabus": "Learn English Language from zero",
+        "sections": [
+            {
+                "title": "Greetings (Kalimat Sapaan)",
+                "videos": [
+                    {
+                        "title": "Video Belajar – Greetings",
+                        "url": "https://youtu.be/4LLRkQoW5s4",
+                        "duration": "5.29"
+                    }
+                ]
+            },
+            {
+                "title": "Tings at Home (Benda-benda yang ada di rumah)",
+                "videos": [
+                    {
+                        "title": "Video Pembelajaran Bahasa Inggris || Things at My Home (Benda di Rumahku)",
+                        "url": "“https://youtu.be/piw2-E5Z524",
+                        "duration": "14.21"
+                    }
+                ]
+            },
+            {
+                "title": "Introducing MySelf (Memperkenalkan diri)",
+                "videos": [
+                    {
+                        "title": " Self Introduction | Perkenalan Diri |How to Introduce yourself in English | Cara memperkenalkan diri",
+                        "url": "https://youtu.be/F0cVLEpfML8",
+                        "duration": "15.24"
+                    }
+                ]
+            },
+            {
+                "title": "Foods and Drinks (Makanan dan Minuman)",
+                "videos": [
+                    {
+                        "title": "Makanan dan minuman dalam bahasa Inggris (Foods and drinks in English)",
+                        "url": "https://youtu.be/qh-H7c1VSgw",
+                        "duration": "10.05"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "thumbnail": "https://w7.pngwing.com/pngs/117/809/png-transparent-microsoft-excel-training-computer-software-microsoft-office-excel-template-angle-text-thumbnail.png",
+        "title": "Bahasa Inggris",
+        "rating": "4.2",
+        "price": 0,
+        "previewUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "sylabus": "Learn English Language from zero",
+        "sections": [
+            {
+                "title": "Memahami Teks atau Cerita",
+                "videos": [
+                    {
+                        "title": "Menggali Informasi Penting dari Teks Bacaan",
+                        "url": "https://youtu.be/5QvE6sDCHeM",
+                        "duration": "5.07"
+                    },
+                    {
+                        "title": "Mengidentifikasi Tokoh, Watak, Latar, Tema dan Amanat Dari Cerita Anak",
+                        "url": "https://youtu.be/Dm5YSNntFN4",
+                        "duration": "5.10"
+                    }
+                ]
+            },
+            {
+                "title": "Pokok Pikiran",
+                "videos": [
+                    {
+                        "title": " Cara Menentukan Pokok Pikiran - Belajar Bahasa Indonesia",
+                        "url": "https://youtu.be/N9HyhjMhQ8o",
+                        "duration": "4.44"
+                    }
+                ]
+            },
+            {
+                "title": "Kalimat Efektif",
+                "videos": [
+                    {
+                        "title": "KALIMAT EFEKTIF (Pengertian, Ciri Dan Penggunaannya",
+                        "url": "https://youtu.be/PjqvmUNuEQs",
+                        "duration": "15.55"
+                    },
+                    {
+                        "title": "Kalimat tanya",
+                        "url": "https://youtu.be/5vmaoJ6pacY",
+                        "duration": "10.05"
+                    }
+                ]
             }
         ]
     }

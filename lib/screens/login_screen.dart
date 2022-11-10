@@ -3,8 +3,15 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:uts/screens/home_screen.dart';
 import 'package:uts/utils/constant.dart';
 
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
+
+  @override
+  State<LoginScreen> createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
+  bool isSignUp = false;
 
   @override
   Widget build(BuildContext context) {
@@ -47,13 +54,43 @@ class LoginScreen extends StatelessWidget {
                   height: 300,
                 ),
                 const SizedBox(height: kBigPadding),
+                isSignUp
+                    ? const TextField(
+                        decoration: InputDecoration(
+                          hintStyle: TextStyle(
+                            fontSize: kDefaultTextSize + 2,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          hintText: 'Email',
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(kDefaultBorderRadius),
+                            ),
+                            borderSide: BorderSide(
+                              color: Colors.black38,
+                              width: 1.5,
+                            ),
+                          ),
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.all(
+                              Radius.circular(kDefaultBorderRadius),
+                            ),
+                            borderSide: BorderSide(
+                              color: kPrimaryColor,
+                              width: 1.5,
+                            ),
+                          ),
+                        ),
+                      )
+                    : Container(),
+                isSignUp ? const SizedBox(height: kDefaultPadding) : Container(),
                 const TextField(
                   decoration: InputDecoration(
                     hintStyle: TextStyle(
                       fontSize: kDefaultTextSize + 2,
                       fontWeight: FontWeight.bold,
                     ),
-                    hintText: 'Username',
+                    hintText: 'Email',
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.all(
                         Radius.circular(kDefaultBorderRadius),
@@ -117,6 +154,12 @@ class LoginScreen extends StatelessWidget {
                             ),
                           );
                         },
+                        style: !isSignUp
+                            ? const ButtonStyle()
+                            : const ButtonStyle(
+                                backgroundColor: MaterialStatePropertyAll(Colors.transparent),
+                                elevation: MaterialStatePropertyAll(0),
+                              ),
                         child: const Padding(
                           padding: EdgeInsets.symmetric(vertical: kMediumTextSize - 2),
                           child: Text(
@@ -130,8 +173,18 @@ class LoginScreen extends StatelessWidget {
                     ),
                     const SizedBox(width: kBigPadding),
                     Expanded(
-                      child: TextButton(
-                        onPressed: () {},
+                      child: ElevatedButton(
+                        onPressed: () {
+                          setState(() {
+                            isSignUp = !isSignUp;
+                          });
+                        },
+                        style: isSignUp
+                            ? const ButtonStyle()
+                            : const ButtonStyle(
+                                backgroundColor: MaterialStatePropertyAll(Colors.transparent),
+                                elevation: MaterialStatePropertyAll(0),
+                              ),
                         child: const Padding(
                           padding: EdgeInsets.symmetric(vertical: kMediumTextSize - 2),
                           child: Text(
