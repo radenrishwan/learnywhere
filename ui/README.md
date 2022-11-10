@@ -1,4 +1,4 @@
-# UI/UX Applicatoin
+# UI/UX Application
 You can access our ui on this link: [https://www.figma.com/file/gpO9xlV2LCyl1wJo1PXE3J/Untitled?node-id=0%3A1](https://www.figma.com/file/gpO9xlV2LCyl1wJo1PXE3J/Untitled?node-id=0%3A1)
 
 ## Preview
